@@ -48,7 +48,7 @@ a:hover{
  background-color: purple;
 }
 .home{
- background:url("../images/gamers.gif");
+ background:url("gamers.gif");
  background-size:cover;
  height:100vh;
 }
