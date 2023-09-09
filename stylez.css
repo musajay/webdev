@@ -1,0 +1,145 @@
+.nav{
+height:50px;
+background:black;
+animation-name: beauty;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes beauty {
+ 0% {background: black;}
+ 50% {background: darkblue;}
+ 100% {background: black;}
+}
+.nav div{
+ display:inline-block;
+ position:absolute;
+ left:0px;
+ padding:15px;
+ font-sixe:20px;
+ color:white;
+}
+.logo{
+  border-width: 3px;
+ border-style: solid;
+ border-color: black;
+ border-radius: 8px 8px;
+ animation-name: logo-change;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes logo-change {
+ 0% {border-color: white;}
+ 50% {border-color: black;}
+ 100% {border-color: white;}
+}
+.nav ul{
+ position:absolute;
+ right:5px;
+}
+.nav ul li{
+ display:inline-block;
+}
+.nav ul li a{
+ text-decoration: none;
+ color:white;
+ padding:10px 5px;
+}
+a:hover{
+ background-color: purple;
+}
+.home{
+ background:url("../images/gamers.gif");
+ background-size:cover;
+ height:100vh;
+}
+.text-container{
+font-weight: bold;
+font-size: 20px;
+color:white;
+}
+.home .text-container{
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 90vh;
+}
+
+.about .about-content{
+ margin: 350px auto 0 auto;
+ width: 700px;
+}
+.about .about-content h1{
+ text-align: left;
+ font-family: 'Roboto',sans-serif;
+ color:black;
+ animation-name: warning;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+}
+@keyframes warning {
+ 0% {color: black;}
+ 50% {color: red;}
+ 100% {color: black;}
+}
+.about .about-content p{
+ text-align: justify;
+ font-family:'lato',sans-serif;
+ color:black;
+ font-size:20px;
+}
+
+.services .services-content{
+ margin: 350px auto 0 auto;
+ background: black;
+}
+.services .services-content h1{
+ text-align:center;
+ font-family: 'Roboto',sans-serif;
+ color:white;
+}
+
+.services-content .card-container ul{
+ padding:30;
+}
+.services-content .card-container img{
+ height:200px;
+ width:300px;
+ transition: transform .2s
+}
+img:hover{
+ transform: scale(1.5);
+}
+
+.services-content .card-container ul li{
+ list-style:none;
+ display: inline-block;
+ margin:55px;
+ width:300px
+}
+.services-content .card-container ul li p{
+ text-align:justify;
+ font-family: 'roboto',sans-serif;
+ color: white;
+}
+
+.contact .contact-content{
+ margin: 80px auto 0 auto;
+ width:900px;
+}
+.contact .contact-content h1{
+ text-align:center;
+ font-family: 'Roboto',sans-serif;
+ color:black;
+}
+.border{
+  border-width: 3px;
+ border-style: solid;
+ border-color: black;
+ border-radius: 8px 8px;
+}
+.contact .contact-content .address-holder p h4{
+ text-align:justify;
+ font-family: 'lato',sans-serif;
+ 
+}
